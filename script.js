@@ -17,7 +17,7 @@ function generate() {
     ynButtons[2].style.display = "none";
     var countryIndex = Math.round(Math.random() * 195);
     var country = countries[countryIndex];
-    var flagFile = country.split(' ').join('');
+    var flagFile = country.split(' ').join('').toLowerCase();
     flag = `flags/${flagFile}.png`;
     flagD.src = flag;
     countryD.innerText = country;
