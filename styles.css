@@ -4,6 +4,9 @@ body * {
 #flagImage {
     display: none;
 }
+h2 {
+    font-size: 3rem;
+}
 button {
     background-color: blue;
     cursor: pointer;
